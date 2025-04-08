@@ -1,11 +1,11 @@
 trigger: none
 
 pool:
-  name: myAgentPool
-  demands:
-    - npm
-    - node.js
-    - Agent.Version -gtVersion 2.199.0
+  name: NewPool
+  # demands:
+  #   - npm
+  #   - node.js
+  #   - Agent.Version -gtVersion 2.199.0
 
 variables:
   buildConfiguration: 'Release'
