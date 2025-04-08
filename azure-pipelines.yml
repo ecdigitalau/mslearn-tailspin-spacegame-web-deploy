@@ -11,7 +11,7 @@ pool: MyAgentPool
 variables:
   buildConfiguration: 'Release'
   wwwrootDir: 'Tailspin.SpaceGame.Web/wwwroot'
-  dotnetSdkVersion: '8.x'
+  dotnetSdkVersion: '9.x'
 
 steps:
 - task: UseDotNet@2
